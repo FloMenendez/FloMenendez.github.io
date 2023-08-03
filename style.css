@@ -1,0 +1,70 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+  word-spacing: 5%;
+  margin-top: 40px;
+  margin-left: 25%;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+}
+img {
+  width: 200px;
+  margin-left: 220px;
+  display: flex;
+}
+
+.h2 {
+  margin-left: 200px;
+}
+
+.educacion {
+  text-align: justify;
+  margin-top: 90px;
+  margin-right: 25%;
+}
+
+#jap {
+  font-size: 15px;
+}
+
+.experiencia {
+  text-align: justify;
+  margin-top: 15px;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#enviar {
+  margin-left: 42%;
+  width: 25%;
+  font-size: 15px;
+}
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tituloForm {
+  align-items: center;
+  justify-content: center;
+}
+
+.mensaje textarea {
+  resize: none;
+}
+
+body {
+  background-image: url("wallpaper.jpg");
+  background-size: cover;
+}
